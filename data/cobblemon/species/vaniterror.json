@@ -186,8 +186,7 @@
 		"tutor:telekinesis",
 		"tutor:trick",
 		"tutor:wonderroom",
-		"tutor:zenheadbutt",
-		"60:spectralthief"
+		"tutor:zenheadbutt"
 	],
 	"labels": [
 		"frontiermon"
@@ -234,12 +233,12 @@
 				"mega"
 			],
 			"baseStats": {
-				"hp": 115,
+				"hp": 90,
 				"attack": 180,
-				"defence": 105,
+				"defence": 40,
 				"special_attack": 90,
-				"special_defence": 145,
-				"speed": 40
+				"special_defence": 140,
+				"speed": 100
 			},
 			"dynamaxBlocked": true,
 			"evolutions": [],

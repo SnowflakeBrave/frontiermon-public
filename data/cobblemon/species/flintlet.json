@@ -6,7 +6,7 @@
 	"secondaryType": "dark",
 	"abilities": [
 		"sharpness",
-		"h:hugepower"
+		"h:battlearmor"
 	],
 	"baseStats": {
 		"hp": 70,
