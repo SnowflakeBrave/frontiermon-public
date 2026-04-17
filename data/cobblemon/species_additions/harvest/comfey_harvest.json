@@ -1,0 +1,13 @@
+{
+	"target": "cobblemon:comfey",   
+	"forms": [
+		{
+			"name": "Harvest",
+			"aspects": [
+				"harvest"
+			],
+			"primaryType": "fairy",
+			"secondaryType": "dark"
+		}
+	]
+}

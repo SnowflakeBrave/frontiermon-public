@@ -1,0 +1,46 @@
+{
+	"portraitScale": 3.5,
+	"portraitTranslation": [ 0.1, -0.6, 0.0],
+	"profileScale": 1.2,
+	"profileTranslation": [ -0.1, 0.2, 0.0],
+	"rootBone": "frostygeist",
+	"animations": {
+		"cry": "q.bedrock_stateful('frostygeist', 'cry')"
+	},
+	"poses": {
+		"standing": {
+			"poseTypes": [
+				"STAND",
+				"NONE",
+				"FLOAT",
+				"PORTRAIT",
+				"PROFILE"
+			],
+			"isBattle": true,
+			"animations": [
+				"q.look('head')",
+				"q.bedrock('frostygeist', 'ground_idle')"
+			],
+			"quirks": [
+				"q.bedrock_quirk('frostygeist', 'blink')"
+			]
+		},
+		"walking": {
+			"poseTypes": [
+				"WALK",
+				"SWIM"
+			],
+			"animations": [
+				"q.look('head')",
+				"q.bedrock('frostygeist', 'ground_idle')"
+			],
+			"quirks": [
+				"q.bedrock_quirk('frostygeist', 'blink')"
+			]
+		},
+		"sleeping": {
+			"poseTypes": ["SLEEP"],
+			"animations": ["q.bedrock('frostygeist', 'sleep')"]
+		}
+	}
+}

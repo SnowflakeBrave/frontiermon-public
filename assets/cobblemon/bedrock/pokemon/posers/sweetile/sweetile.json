@@ -1,0 +1,34 @@
+{
+	"portraitScale": 2.0,
+	"portraitTranslation": [ -0.2, 3.5, 0.0 ],
+	"profileScale": 0.4,
+	"profileTranslation": [ 0.0, 1.2, 0.0 ],
+	"animations": {
+		"cry": "q.bedrock_stateful('sweetile', 'cry')"
+	},
+	"poses": {
+		"standing": {
+			"poseTypes": [
+				"STAND",
+				"NONE",
+				"PORTRAIT",
+				"PROFILE"
+			],
+			"animations": [
+				"q.look('head')",
+				"q.bedrock('sweetile', 'ground_idle')"
+			],
+			"quirks": ["q.bedrock_quirk('sweetile', 'blink')"]
+		},
+		"walking": {
+			"poseTypes": [
+				"WALK"
+			],
+			"animations": [
+				"q.look('head')",
+				"q.bedrock('sweetile', 'ground_walk')"
+			],
+			"quirks": ["q.bedrock_quirk('sweetile', 'blink')"]
+		}
+	}
+}

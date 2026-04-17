@@ -1,0 +1,13 @@
+{
+	"id": "cobblemon:zoroark-festival",
+	"speciesId": "cobblemon:zoroark",
+	"displayAspects": [],
+	"conditionAspects": [],
+	"forms": [
+		{
+			"displayForm": "Festival",
+			"unlockForms": ["Festival"]
+		}
+	],
+	"variations": []
+}

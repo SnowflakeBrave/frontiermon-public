@@ -1,0 +1,6 @@
+{
+	"keys": ["bonded"],
+	"type": "flag",
+	"isAspect": true,
+	"default": false
+}

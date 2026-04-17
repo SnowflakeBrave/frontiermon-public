@@ -1,0 +1,1 @@
+give @s charcoal[item_name='{"italic":false,"text":"Lilligite"}',lore=['{"color":"white","italic":false,"text":"Allows Lilligant to Mega Evolve into Mega Lilligant"}'],custom_model_data=5653,mega_showdown:registry_type_component="mega",mega_showdown:registry_location_component="frontiermon:lilligite"] 1

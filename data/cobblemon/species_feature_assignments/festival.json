@@ -1,0 +1,15 @@
+{
+	"pokemon": [
+		"basculegion",
+		"basculin",
+		"drifblim",
+		"drifloon",
+		"zorua",
+		"zoroark",
+		"zeraora",
+		"espurr",
+		"meowstic",
+		"blacephalon"
+	],
+	"features": ["festival"]
+}

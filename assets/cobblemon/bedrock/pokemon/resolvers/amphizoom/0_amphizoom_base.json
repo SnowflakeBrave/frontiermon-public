@@ -1,0 +1,17 @@
+{
+	"species": "cobblemon:amphizoom",
+	"order": 0,
+	"variations": [
+		{
+			"aspects": [],
+			"poser": "cobblemon:amphizoom",
+			"model": "cobblemon:amphizoom.geo",
+			"texture": "cobblemon:textures/pokemon/amphizoom/amphizoom.png",
+			"layers": []
+		},
+		{
+			"aspects": ["shiny"],
+			"texture": "cobblemon:textures/pokemon/amphizoom/amphizoom_shiny.png"
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"D": {
+			"item": "minecraft:flowering_azalea"
+		},
+		"I": {
+			"item": "minecraft:iron_ingot"
+		},
+		"T": {
+			"item": "mega_showdown:mega_stone"
+		},
+		"Z": {
+			"item": "minecraft:diamond"
+		}
+	},
+	"pattern": [" D ", "ITI", " Z "],
+	"result": {
+		"id": "minecraft:charcoal",
+		"components": {
+			"minecraft:custom_model_data": 5653,
+			"minecraft:item_name": "{\"italic\":false,\"text\":\"Lilligite\"}",
+			"minecraft:lore": [
+			  "{\"color\":\"white\",\"italic\":false,\"text\":\"Allows Lilligant to Mega Evolve into Mega Lilligant\"}"
+			],
+			"mega_showdown:registry_type_component": "mega",
+			"mega_showdown:registry_location_component": "frontiermon:lilligite"
+		}
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"id": "cobblemon:wystenent",
+	"speciesId": "cobblemon:wystenent",
+	"displayAspects": [],
+	"conditionAspects": [],
+	"forms": [
+		{
+			"displayForm": "Normal",
+			"unlockForms": ["Normal"]
+		}
+	],
+	"variations": []
+}

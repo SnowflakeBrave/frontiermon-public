@@ -1,0 +1,18 @@
+{
+	"species": "cobblemon:comfey",
+	"order": 1,
+	"variations": [
+		{
+			"aspects": ["harvest"],
+			"poser": "cobblemon:comfey",
+			"model": "cobblemon:comfey_harvest.geo",
+			"texture": "cobblemon:textures/pokemon/comfey/comfey_harvest.png",
+			"layers": []
+		},
+		{
+			"aspects": ["harvest", "shiny"],
+			"texture": "cobblemon:textures/pokemon/comfey/comfey_harvest_shiny.png",
+			"layers": []
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"species": "cobblemon:validys",
+	"order": 0,
+	"variations": [
+		{
+			"aspects": [],
+			"poser": "cobblemon:validys",
+			"model": "cobblemon:validys.geo",
+			"texture": "cobblemon:textures/pokemon/validys/validys.png",
+			"layers": [
+				{
+					"name": "emissive",
+					"emissive": true,
+					"texture": "cobblemon:textures/pokemon/validys/validys_emissive.png",
+					"translucent": true
+				}
+			]
+		},
+		{
+			"aspects": ["shiny"],
+			"texture": "cobblemon:textures/pokemon/validys/validys_shiny.png",
+			"layers": [
+				{
+					"name": "emissive",
+					"emissive": true,
+					"texture": "cobblemon:textures/pokemon/validys/validys_shiny_emissive.png",
+					"translucent": true
+				}
+			]
+		}
+	]
+}

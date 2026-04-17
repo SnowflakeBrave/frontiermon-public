@@ -1,0 +1,68 @@
+{
+	"portraitScale": 2.5,
+	"portraitTranslation": [ 0.6, -1.6, 0.0 ],
+	"profileScale": 1.0,
+	"profileTranslation": [ 0.1, 0.1, 0.0 ],
+	"animations": {
+		"faint": "q.bedrock_primary('kazoom', 'faint', q.curve('one'))",
+		"cry": "q.bedrock_stateful('kazoom', 'cry')"
+	},
+	"poses": {
+		"battle-idle": {
+			"poseTypes": ["STAND"],
+			"isBattle": true,
+			"animations": [
+				"q.bedrock('kazoom', 'battle_idle')"
+			],
+			"quirks": ["q.bedrock_quirk('kazoom', 'blink')"]
+		},
+		"standing": {
+			"poseTypes": [
+				"STAND",
+				"NONE",
+				"PORTRAIT",
+				"PROFILE"
+			],
+			"isBattle": false,
+			"animations": [
+				"q.bedrock('kazoom', 'ground_idle')"
+			],
+			"quirks": ["q.bedrock_quirk('kazoom', 'blink')"]
+		},
+		"walking": {
+			"poseTypes": [
+				"WALK"
+			],
+			"animations": [
+				"q.bedrock('kazoom', 'ground_walk')"
+			],
+			"quirks": ["q.bedrock_quirk('kazoom', 'blink')"]
+		},
+		"sleeping": {
+			"poseTypes": [
+				"SLEEP"
+			],
+			"animations": [
+				"q.bedrock('kazoom', 'sleep')"
+			]
+		},
+		"swimming": {
+			"poseTypes": [
+				"SWIM"
+			],
+			"animations": [
+				"q.bedrock('kazoom', 'water_idle')"
+			],
+			"quirks": ["q.bedrock_quirk('kazoom', 'blink')"]
+		},
+		"floating": {
+			"poseTypes": [
+				"FLOAT"
+			],
+			"animations": [
+				"q.bedrock('kazoom', 'water_idle')"
+			],
+			"quirks": ["q.bedrock_quirk('kazoom', 'blink')"]
+		}
+	}
+}

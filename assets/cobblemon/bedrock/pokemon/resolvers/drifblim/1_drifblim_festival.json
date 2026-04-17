@@ -1,0 +1,74 @@
+{
+	"species": "cobblemon:drifblim",
+	"order": 1,
+	"variations": [
+		{
+			"aspects": ["festival"],
+			"poser": "cobblemon:drifblim",
+			"model": "cobblemon:drifblim_festival.geo",
+			"texture": "cobblemon:textures/pokemon/drifblim/drifblim_festival_pink.png",
+			"layers": [
+				{
+					"name": "emissive",
+					"emissive": true,
+					"texture": "cobblemon:textures/pokemon/drifblim/drifblim_festival_pink_emissive.png",
+					"translucent": true
+				}
+			]
+		},
+		{
+			"aspects": ["festival", "lanterncolor-orange"],
+			"poser": "cobblemon:drifblim",
+			"model": "cobblemon:drifblim_festival.geo",
+			"texture": "cobblemon:textures/pokemon/drifblim/drifblim_festival_orange.png",
+			"layers": [
+				{
+					"name": "emissive",
+					"emissive": true,
+					"texture": "cobblemon:textures/pokemon/drifblim/drifblim_festival_orange_emissive.png",
+					"translucent": true
+				}
+			]
+		},
+		{
+			"aspects": ["festival", "lanterncolor-purple"],
+			"poser": "cobblemon:drifblim",
+			"model": "cobblemon:drifblim_festival.geo",
+			"texture": "cobblemon:textures/pokemon/drifblim/drifblim_festival_purple.png",
+			"layers": [
+				{
+					"name": "emissive",
+					"emissive": true,
+					"texture": "cobblemon:textures/pokemon/drifblim/drifblim_festival_purple_emissive.png",
+					"translucent": true
+				}
+			]
+		},
+		{
+			"aspects": ["festival", "lanterncolor-red"],
+			"poser": "cobblemon:drifblim",
+			"model": "cobblemon:drifblim_festival.geo",
+			"texture": "cobblemon:textures/pokemon/drifblim/drifblim_festival_red.png",
+			"layers": [
+				{
+					"name": "emissive",
+					"emissive": true,
+					"texture": "cobblemon:textures/pokemon/drifblim/drifblim_festival_red_emissive.png",
+					"translucent": true
+				}
+			]
+		},
+		{
+			"aspects": ["festival", "shiny"],
+			"texture": "cobblemon:textures/pokemon/drifblim/drifblim_festival_shiny.png",
+			"layers": [
+				{
+					"name": "emissive",
+					"emissive": true,
+					"texture": "cobblemon:textures/pokemon/drifblim/drifblim_festival_shiny_emissive.png",
+					"translucent": true
+				}
+			]
+		}
+	]
+}

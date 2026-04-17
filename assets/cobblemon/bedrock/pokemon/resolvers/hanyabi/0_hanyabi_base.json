@@ -1,0 +1,32 @@
+{
+	"species": "cobblemon:hanyabi",
+	"order": 0,
+	"variations": [
+		{
+			"aspects": [],
+			"poser": "cobblemon:hanyabi",
+			"model": "cobblemon:hanyabi.geo",
+			"texture": "cobblemon:textures/pokemon/hanyabi/hanyabi.png",
+			"layers": [
+				{
+					"name": "emissive",
+					"emissive": true,
+					"texture": "cobblemon:textures/pokemon/hanyabi/hanyabi_emissive.png",
+					"translucent": true
+				}
+			]
+		},
+		{
+			"aspects": ["shiny"],
+			"texture": "cobblemon:textures/pokemon/hanyabi/hanyabi_shiny.png",
+			"layers": [
+				{
+					"name": "emissive",
+					"emissive": true,
+					"texture": "cobblemon:textures/pokemon/hanyabi/hanyabi_shiny_emissive.png",
+					"translucent": true
+				}
+			]
+		}
+	]
+}

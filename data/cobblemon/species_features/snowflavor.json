@@ -1,0 +1,13 @@
+{
+	"type": "choice",
+	"keys": ["snowflavor"],
+	"default": "random",
+	"choices": [
+		"blue",
+		"orange",
+		"purple",
+		"red"
+	],
+	"isAspect": true,
+	"aspectFormat": "snowflavor-{{choice}}"
+}

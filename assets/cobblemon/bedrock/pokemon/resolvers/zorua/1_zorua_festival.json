@@ -1,0 +1,17 @@
+{
+	"species": "cobblemon:zorua",
+	"order": 1,
+	"variations": [
+		{
+			"aspects": ["festival"],
+			"poser": "cobblemon:zorua_hisuian",
+			"model": "cobblemon:zorua_festival.geo",
+			"texture": "cobblemon:textures/pokemon/zorua/zorua_festival.png",
+			"layers": []
+		},
+		{
+			"aspects": ["festival", "shiny"],
+			"texture": "cobblemon:textures/pokemon/zorua/zorua_festival_shiny.png"
+		}
+	]
+}

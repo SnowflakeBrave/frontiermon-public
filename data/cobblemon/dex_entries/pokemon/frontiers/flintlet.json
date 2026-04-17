@@ -1,0 +1,13 @@
+{
+	"id": "cobblemon:flintlet",
+	"speciesId": "cobblemon:flintlet",
+	"displayAspects": [],
+	"conditionAspects": [],
+	"forms": [
+		{
+			"displayForm": "Normal",
+			"unlockForms": ["Normal"]
+		}
+	],
+	"variations": []
+}

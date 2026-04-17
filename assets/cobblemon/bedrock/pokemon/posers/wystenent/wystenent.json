@@ -1,0 +1,76 @@
+{
+	"rootBone": "wystenent",
+	"portraitScale": 1.6,
+	"portraitTranslation": [ -0.2, 1.8, 0 ],
+	"profileScale": 0.45,
+	"profileTranslation": [ 0, 0.93, 0 ],
+	"animations": {
+		"faint": "q.bedrock_primary('wystenent', 'faint', q.curve('one'))",
+		"cry": "q.bedrock_stateful('wystenent', 'cry')"
+	},
+	"poses": {
+		"battle_idle": {
+			"poseName": "battle_idle",
+			"isBattle": true,
+			"poseTypes": [
+				"STAND",
+				"FLOAT"
+			],
+			"animations": [
+				"q.bedrock('wystenent', 'battle_idle')"
+			],
+			"transformTicks": 10,
+			"quirks": [
+				"q.bedrock_quirk('wystenent', 'blink')"
+			],
+			"namedAnimations": {
+				"faint": "q.bedrock_primary('wystenent', 'battle_faint', q.curve('one'))",
+				"cry": "q.bedrock_stateful('wystenent', 'battle_cry')"
+			}
+		},
+		"stand": {
+			"poseName": "stand",
+			"isBattle": false,
+			"poseTypes": [
+				"STAND",
+				"FLOAT",
+				"NONE",
+				"PORTRAIT",
+				"PROFILE"
+			],
+			"animations": [
+				"q.bedrock('wystenent', 'ground_idle')"
+			],
+			"transformTicks": 10,
+			"quirks": [
+				"q.bedrock_quirk('wystenent', 'blink')"
+			]
+		},
+		"walk": {
+			"poseName": "walk",
+			"poseTypes": [
+				"WALK",
+				"SWIM"
+			],
+			"animations": [
+				"q.bedrock('wystenent', 'ground_walk')"
+			],
+			"transformTicks": 5,
+			"quirks": [
+				"q.bedrock_quirk('wystenent', 'blink')"
+			]
+		},
+		"sleep": {
+			"poseName": "sleep",
+			"poseTypes": [
+				"SLEEP"
+			],
+			"animations": [
+				"q.bedrock('wystenent', 'sleep')"
+			],
+			"namedAnimations": {
+				"cry": "q.bedrock_stateful('dummy', 'cry')"
+			}
+		}
+	}
+}

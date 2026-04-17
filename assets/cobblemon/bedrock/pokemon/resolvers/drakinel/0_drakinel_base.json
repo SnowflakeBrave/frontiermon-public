@@ -1,0 +1,17 @@
+{
+	"species": "cobblemon:drakinel",
+	"order": 0,
+	"variations": [
+		{
+			"aspects": [],
+			"poser": "cobblemon:drakinel",
+			"model": "cobblemon:drakinel.geo",
+			"texture": "cobblemon:textures/pokemon/drakinel/drakinel.png",
+			"layers": []
+		},
+		{
+			"aspects": ["shiny"],
+			"texture": "cobblemon:textures/pokemon/drakinel/drakinel_shiny.png"
+		}
+	]
+}

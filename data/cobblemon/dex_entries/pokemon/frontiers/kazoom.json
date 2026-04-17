@@ -1,0 +1,13 @@
+{
+	"id": "cobblemon:kazoom",
+	"speciesId": "cobblemon:kazoom",
+	"displayAspects": [],
+	"conditionAspects": [],
+	"forms": [
+		{
+			"displayForm": "Normal",
+			"unlockForms": ["Normal"]
+		}
+	],
+	"variations": []
+}

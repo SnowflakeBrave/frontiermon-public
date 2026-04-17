@@ -1,0 +1,18 @@
+{
+	"species": "cobblemon:espurr",
+	"order": 1,
+	"variations": [
+		{
+			"aspects": ["festival"],
+			"poser": "cobblemon:espurr",
+			"model": "cobblemon:espurr_festival.geo",
+			"texture": "cobblemon:textures/pokemon/espurr/espurr_festival.png",
+			"layers": []
+		},
+		{
+			"aspects": ["festival", "shiny"],
+			"texture": "cobblemon:textures/pokemon/espurr/espurr_festival_shiny.png",
+			"layers": []
+		}
+	]
+}

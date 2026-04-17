@@ -1,0 +1,18 @@
+{
+	"species": "cobblemon:golett",
+	"order": 1,
+	"variations": [
+		{
+			"aspects": ["harvest"],
+			"poser": "cobblemon:golett",
+			"model": "cobblemon:golett_harvest_bias.geo",
+			"texture": "cobblemon:textures/pokemon/golett/golett_harvest_bias.png",
+			"layers": []
+		},
+		{
+			"aspects": ["harvest", "shiny"],
+			"texture": "cobblemon:textures/pokemon/golett/golett_harvest_bias_shiny.png",
+			"layers": []
+		}
+	]
+}

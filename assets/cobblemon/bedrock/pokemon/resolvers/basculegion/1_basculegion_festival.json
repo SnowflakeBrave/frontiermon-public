@@ -1,0 +1,17 @@
+{
+	"species": "cobblemon:basculegion",
+	"order": 1,
+	"variations": [
+		{
+			"aspects": ["festival"],
+			"poser": "cobblemon:basculegion",
+			"model": "cobblemon:basculegion_festival.geo",
+			"texture": "cobblemon:textures/pokemon/basculegion/basculegion_festival.png",
+			"layers": []
+		},
+		{
+			"aspects": ["festival", "shiny"],
+			"texture": "cobblemon:textures/pokemon/basculegion/basculegion_festival_shiny.png"
+		}
+	]
+}

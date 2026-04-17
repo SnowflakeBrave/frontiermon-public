@@ -1,0 +1,38 @@
+{
+	"species": "cobblemon:sinisnow",
+	"order": 0,
+	"variations": [
+		{
+			"aspects": [],
+			"poser": "cobblemon:sinisnow",
+			"model": "cobblemon:sinisnow.geo",
+			"texture": "cobblemon:textures/pokemon/sinisnow/sinisnow_blue.png",
+			"layers": []
+		},
+		{
+			"aspects": ["snowflavor-orange"],
+			"poser": "cobblemon:sinisnow",
+			"model": "cobblemon:sinisnow.geo",
+			"texture": "cobblemon:textures/pokemon/sinisnow/sinisnow_orange.png",
+			"layers": []
+		},
+		{
+			"aspects": ["snowflavor-purple"],
+			"poser": "cobblemon:sinisnow",
+			"model": "cobblemon:sinisnow.geo",
+			"texture": "cobblemon:textures/pokemon/sinisnow/sinisnow_purple.png",
+			"layers": []
+		},
+		{
+			"aspects": ["snowflavor-red"],
+			"poser": "cobblemon:sinisnow",
+			"model": "cobblemon:sinisnow.geo",
+			"texture": "cobblemon:textures/pokemon/sinisnow/sinisnow_red.png",
+			"layers": []
+		},
+		{
+			"aspects": ["shiny"],
+			"texture": "cobblemon:textures/pokemon/sinisnow/sinisnow_shiny.png"
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"species": "cobblemon:glameow",
+	"order": 1,
+	"variations": [
+		{
+			"aspects": ["harvest"],
+			"poser": "cobblemon:glameow",
+			"model": "cobblemon:glameow_harvest.geo",
+			"texture": "cobblemon:textures/pokemon/glameow/glameow_harvest.png",
+			"layers": []
+		},
+		{
+			"aspects": ["harvest", "shiny"],
+			"texture": "cobblemon:textures/pokemon/glameow/glameow_harvest_shiny.png",
+			"layers": []
+		}
+	]
+}

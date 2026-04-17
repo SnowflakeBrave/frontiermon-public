@@ -1,0 +1,13 @@
+{
+	"type": "choice",
+	"keys": ["lanterncolor"],
+	"default": "random",
+	"choices": [
+		"pink",
+		"orange",
+		"purple",
+		"red"
+	],
+	"isAspect": true,
+	"aspectFormat": "lanterncolor-{{choice}}"
+}

@@ -1,0 +1,13 @@
+{
+	"id": "cobblemon:amphizoom",
+	"speciesId": "cobblemon:amphizoom",
+	"displayAspects": [],
+	"conditionAspects": [],
+	"forms": [
+		{
+			"displayForm": "Normal",
+			"unlockForms": ["Normal"]
+		}
+	],
+	"variations": []
+}

@@ -1,0 +1,38 @@
+{
+	"species": "cobblemon:frostygeist",
+	"order": 0,
+	"variations": [
+		{
+			"aspects": [],
+			"poser": "cobblemon:frostygeist",
+			"model": "cobblemon:frostygeist.geo",
+			"texture": "cobblemon:textures/pokemon/frostygeist/frostygeist_blue.png",
+			"layers": []
+		},
+		{
+			"aspects": ["snowflavor-orange"],
+			"poser": "cobblemon:frostygeist",
+			"model": "cobblemon:frostygeist.geo",
+			"texture": "cobblemon:textures/pokemon/frostygeist/frostygeist_orange.png",
+			"layers": []
+		},
+		{
+			"aspects": ["snowflavor-purple"],
+			"poser": "cobblemon:frostygeist",
+			"model": "cobblemon:frostygeist.geo",
+			"texture": "cobblemon:textures/pokemon/frostygeist/frostygeist_purple.png",
+			"layers": []
+		},
+		{
+			"aspects": ["snowflavor-red"],
+			"poser": "cobblemon:frostygeist",
+			"model": "cobblemon:frostygeist.geo",
+			"texture": "cobblemon:textures/pokemon/frostygeist/frostygeist_red.png",
+			"layers": []
+		},
+		{
+			"aspects": ["shiny"],
+			"texture": "cobblemon:textures/pokemon/frostygeist/frostygeist_shiny.png"
+		}
+	]
+}

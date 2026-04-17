@@ -1,0 +1,24 @@
+{
+	"id": "cobblemon:drifblim-festival",
+	"speciesId": "cobblemon:drifblim",
+	"displayAspects": [],
+	"conditionAspects": [],
+	"forms": [
+		{
+			"displayForm": "Festival",
+			"unlockForms": ["Festival"]
+		}
+	],
+	"variations": [
+		{
+			"displayName": "cobblemon.pokedex.variation.lantern_color",
+			"icon": "cobblemon:textures/gui/pokedex/variation/color.png",  
+			"aspects": [
+				"lanterncolor-pink",
+				"lanterncolor-orange",
+				"lanterncolor-purple",
+				"lanterncolor-red"
+			]
+		}
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"id": "cobblemon:meowstic-festival",
+	"speciesId": "cobblemon:meowstic",
+	"displayAspects": [],
+	"conditionAspects": [],
+	"forms": [
+		{
+			"displayForm": "Festival",
+			"unlockForms": ["Festival"]
+		},
+		{
+			"displayForm": "F_Festival",
+			"unlockForms": ["F_Festival"]
+		}
+	],
+	"variations": []
+}

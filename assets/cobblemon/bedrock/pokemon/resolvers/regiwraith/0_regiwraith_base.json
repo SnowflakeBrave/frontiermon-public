@@ -1,0 +1,17 @@
+{
+	"species": "cobblemon:regiwraith",
+	"order": 0,
+	"variations": [
+		{
+			"aspects": [],
+			"poser": "cobblemon:regiwraith",
+			"model": "cobblemon:regiwraith.geo",
+			"texture": "cobblemon:textures/pokemon/regiwraith/regiwraith.png",
+			"layers": []
+		},
+		{
+			"aspects": ["shiny"],
+			"texture": "cobblemon:textures/pokemon/regiwraith/regiwraith_shiny.png"
+		}
+	]
+}

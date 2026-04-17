@@ -1,0 +1,6 @@
+{
+	"keys": ["festival"],
+	"type": "flag",
+	"isAspect": true,
+	"default": false
+}

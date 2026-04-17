@@ -1,0 +1,8 @@
+{
+	"pokemon": [
+		"comfey",
+		"glameow",
+		"golett"
+	],
+	"features": ["harvest"]
+}

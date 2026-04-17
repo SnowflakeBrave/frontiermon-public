@@ -1,0 +1,32 @@
+{
+	"species": "cobblemon:cragahuitl",
+	"order": 0,
+	"variations": [
+		{
+			"aspects": [],
+			"poser": "cobblemon:cragahuitl",
+			"model": "cobblemon:cragahuitl.geo",
+			"texture": "cobblemon:textures/pokemon/cragahuitl/cragahuitl.png",
+			"layers": [
+				{
+					"name": "emissive",
+					"emissive": true,
+					"texture": "cobblemon:textures/pokemon/cragahuitl/cragahuitl_emissive.png",
+					"translucent": true
+				}
+			]
+		},
+		{
+			"aspects": [ "shiny" ],
+			"texture": "cobblemon:textures/pokemon/cragahuitl/cragahuitl_shiny.png",
+			"layers": [
+				{
+					"name": "emissive",
+					"emissive": true,
+					"texture": "cobblemon:textures/pokemon/cragahuitl/cragahuitl_shiny_emissive.png",
+					"translucent": true
+				}
+			]
+		}
+	]
+}

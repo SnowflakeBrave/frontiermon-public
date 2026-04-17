@@ -1,0 +1,32 @@
+{
+	"species": "cobblemon:blacephalon",
+	"order": 1,
+	"variations": [
+		{
+			"aspects": ["festival"],
+			"poser": "cobblemon:blacephalon_festival",
+			"model": "cobblemon:blacephalon_festival.geo",
+			"texture": "cobblemon:textures/pokemon/blacephalon/blacephalon_festival.png",
+			"layers": [
+				{
+					"name": "emissive",
+					"emissive": true,
+					"texture": "cobblemon:textures/pokemon/blacephalon/blacephalon_festival_emissive.png",
+					"translucent": true
+				}
+			]
+		},
+		{
+			"aspects": ["festival", "shiny"],
+			"texture": "cobblemon:textures/pokemon/blacephalon/blacephalon_festival_shiny.png",
+			"layers": [
+				{
+					"name": "emissive",
+					"emissive": true,
+					"texture": "cobblemon:textures/pokemon/blacephalon/blacephalon_festival_shiny_emissive.png",
+					"translucent": true
+				}
+			]
+		}
+	]
+}

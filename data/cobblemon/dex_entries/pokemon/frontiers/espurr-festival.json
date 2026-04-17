@@ -1,0 +1,13 @@
+{
+	"id": "cobblemon:espurr-festival",
+	"speciesId": "cobblemon:espurr",
+	"displayAspects": [],
+	"conditionAspects": [],
+	"forms": [
+		{
+			"displayForm": "Festival",
+			"unlockForms": ["Festival"]
+		}
+	],
+	"variations": []
+}

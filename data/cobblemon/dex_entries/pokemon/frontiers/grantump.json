@@ -1,0 +1,13 @@
+{
+	"id": "cobblemon:grantump",
+	"speciesId": "cobblemon:grantump",
+	"displayAspects": [],
+	"conditionAspects": [],
+	"forms": [
+		{
+			"displayForm": "Normal",
+			"unlockForms": ["Normal"]
+		}
+	],
+	"variations": []
+}

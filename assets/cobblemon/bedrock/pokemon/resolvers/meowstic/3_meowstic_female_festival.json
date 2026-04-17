@@ -1,0 +1,32 @@
+{
+	"species": "cobblemon:meowstic",
+	"order": 3,
+	"variations": [
+		{
+			"aspects": ["festival", "female"],
+			"poser": "cobblemon:meowstic_female",
+			"model": "cobblemon:meowstic_female_festival.geo",
+			"texture": "cobblemon:textures/pokemon/meowstic/meowstic_female_festival.png",
+			"layers": [
+				{
+					"name": "emissive",
+					"emissive": true,
+					"texture": "cobblemon:textures/pokemon/0678_meowstic/meowstic_female_emissive.png",
+					"translucent": true
+				}
+			]
+		},
+		{
+			"aspects": ["festival", "female", "shiny"],
+			"texture": "cobblemon:textures/pokemon/meowstic/meowstic_female_festival_shiny.png",
+			"layers": [
+				{
+					"name": "emissive",
+					"emissive": true,
+					"texture": "cobblemon:textures/pokemon/0678_meowstic/meowstic_female_emissive.png",
+					"translucent": true
+				}
+			]
+		}
+	]
+}

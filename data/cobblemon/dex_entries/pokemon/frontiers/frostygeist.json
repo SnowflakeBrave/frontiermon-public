@@ -1,0 +1,24 @@
+{
+	"id": "cobblemon:frostygeist",
+	"speciesId": "cobblemon:frostygeist",
+	"displayAspects": [],
+	"conditionAspects": [],
+	"forms": [
+		{
+			"displayForm": "Normal",
+			"unlockForms": ["Normal"]
+		}
+	],
+	"variations": [
+		{
+			"displayName": "cobblemon.pokedex.variation.snow_flavor",
+			"icon": "cobblemon:textures/gui/pokedex/variation/color.png",  
+			"aspects": [
+				"snowflavor-blue",
+				"snowflavor-orange",
+				"snowflavor-purple",
+				"snowflavor-red"
+			]
+		}
+	]
+}

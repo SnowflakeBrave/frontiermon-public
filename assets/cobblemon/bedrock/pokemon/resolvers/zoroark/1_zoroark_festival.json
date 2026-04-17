@@ -1,0 +1,17 @@
+{
+	"species": "cobblemon:zoroark",
+	"order": 1,
+	"variations": [
+		{
+			"aspects": ["festival"],
+			"poser": "cobblemon:zoroark_hisuian",
+			"model": "cobblemon:zoroark_festival.geo",
+			"texture": "cobblemon:textures/pokemon/zoroark/zoroark_festival.png",
+			"layers": []
+		},
+		{
+			"aspects": ["festival", "shiny"],
+			"texture": "cobblemon:textures/pokemon/zoroark/zoroark_festival_shiny.png"
+		}
+	]
+}

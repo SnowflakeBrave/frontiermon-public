@@ -1,0 +1,28 @@
+{
+	"type": "cobblemon:simple_pokedex_def",
+	"id": "cobblemon:frontiers",
+	"sortOrder": 39,
+	"entries": [
+		"cobblemon:validys",
+		"cobblemon:vaniterror",
+		"cobblemon:basculin-festival",
+		"cobblemon:basculegion-festival",
+		"cobblemon:drifloon-festival",
+		"cobblemon:drifblim-festival",
+		"cobblemon:espurr-festival",
+		"cobblemon:meowstic-festival",
+		"cobblemon:meowstic-f-festival",
+		"cobblemon:zorua-festival",
+		"cobblemon:zoroark-festival",
+		"cobblemon:sinisnow",
+		"cobblemon:frostygeist",
+		"cobblemon:blacephalon-festival",
+		"cobblemon:hanyabi",
+		"cobblemon:grantump",
+		"cobblemon:wystenent",
+		"cobblemon:flintlet",
+		"cobblemon:cragahuitl",
+		"cobblemon:kazoom",
+		"cobblemon:amphizoom"
+	]
+}

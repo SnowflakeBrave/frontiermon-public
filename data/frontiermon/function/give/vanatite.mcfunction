@@ -1,0 +1,1 @@
+give @s charcoal[item_name='{"italic":false,"text":"Vanatite"}',lore=['{"color":"white","italic":false,"text":"Allows Vaniterror to Mega Evolve into Mega Vaniterror"}'],custom_model_data=5652,mega_showdown:registry_type_component="mega",mega_showdown:registry_location_component="frontiermon:vanatite"] 1

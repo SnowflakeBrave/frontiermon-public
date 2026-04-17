@@ -1,0 +1,27 @@
+{
+	"portraitScale": 1.3,
+	"portraitTranslation": [ -0.5, 2.2, 2.0 ],
+	"profileScale": 0.5,
+	"profileTranslation": [ 0.0, 1.1, 0.0 ],
+	"poses": {
+		"standing": {
+			"poseTypes": [
+				"STAND",
+				"NONE",
+				"PORTRAIT",
+				"PROFILE"
+			],
+			"animations": [
+				"q.look('head')",
+				"q.bedrock('vaniterror', 'ground_idle')"
+			]
+		},
+		"walking": {
+			"poseTypes": ["WALK"],
+			"animations": [
+				"q.look('head')",
+				"q.bedrock('vaniterror', 'ground_walk')"
+			]
+		}
+	}
+}

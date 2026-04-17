@@ -1,0 +1,13 @@
+{
+	"id": "cobblemon:zorua-festival",
+	"speciesId": "cobblemon:zorua",
+	"displayAspects": [],
+	"conditionAspects": [],
+	"forms": [
+		{
+			"displayForm": "Festival",
+			"unlockForms": ["Festival"]
+		}
+	],
+	"variations": []
+}

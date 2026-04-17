@@ -1,0 +1,1 @@
+give @s coal[item_name='{"italic":false,"text":"Skittite"}',lore=['{"color":"white","italic":false,"text":"Allows Bonded Skitty to Mega Evolve into Mega Skitty"}'],custom_model_data=5651,mega_showdown:registry_type_component="mega",mega_showdown:registry_location_component="frontiermon:skittite"] 1

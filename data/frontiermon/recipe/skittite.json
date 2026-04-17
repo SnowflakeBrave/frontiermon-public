@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"D": {
+			"item": "minecraft:amethyst_shard"
+		},
+		"I": {
+			"item": "minecraft:gold_ingot"
+		},
+		"T": {
+			"item": "mega_showdown:mega_stone"
+		},
+		"Z": {
+			"item": "minecraft:diamond"
+		}
+	},
+	"pattern": [" D ", "ITI", " Z "],
+	"result": {
+		"id": "minecraft:coal",
+		"components": {
+			"minecraft:custom_model_data": 5651,
+			"minecraft:item_name": "{\"italic\":false,\"text\":\"Skittite\"}",
+			"minecraft:lore": [
+			  "{\"color\":\"white\",\"italic\":false,\"text\":\"Allows Bonded Skitty to Mega Evolve into Mega Skitty\"}"
+			],
+			"mega_showdown:registry_type_component": "mega",
+			"mega_showdown:registry_location_component": "frontiermon:skittite"
+		}
+	}
+}

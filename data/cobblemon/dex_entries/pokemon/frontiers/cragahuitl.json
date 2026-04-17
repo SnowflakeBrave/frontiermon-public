@@ -1,0 +1,13 @@
+{
+	"id": "cobblemon:cragahuitl",
+	"speciesId": "cobblemon:cragahuitl",
+	"displayAspects": [],
+	"conditionAspects": [],
+	"forms": [
+		{
+			"displayForm": "Normal",
+			"unlockForms": ["Normal"]
+		}
+	],
+	"variations": []
+}

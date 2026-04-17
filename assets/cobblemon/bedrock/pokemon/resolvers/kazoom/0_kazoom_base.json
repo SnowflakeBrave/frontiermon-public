@@ -1,0 +1,17 @@
+{
+	"species": "cobblemon:kazoom",
+	"order": 0,
+	"variations": [
+		{
+			"aspects": [],
+			"poser": "cobblemon:kazoom",
+			"model": "cobblemon:kazoom.geo",
+			"texture": "cobblemon:textures/pokemon/kazoom/kazoom.png",
+			"layers": []
+		},
+		{
+			"aspects": ["shiny"],
+			"texture": "cobblemon:textures/pokemon/kazoom/kazoom_shiny.png"
+		}
+	]
+}

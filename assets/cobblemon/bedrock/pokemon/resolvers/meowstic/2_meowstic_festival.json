@@ -1,0 +1,30 @@
+{
+	"species": "cobblemon:meowstic",
+	"order": 2,
+	"variations": [
+		{
+			"aspects": ["festival"],
+			"poser": "cobblemon:meowstic_male",
+			"model": "cobblemon:meowstic_male_festival.geo",
+			"texture": "cobblemon:textures/pokemon/meowstic/meowstic_male_festival.png",
+			"layers": [
+				{
+					"name": "emissive",
+					"emissive": true,
+					"texture": "cobblemon:textures/pokemon/0678_meowstic/meowstic_male_emissive.png"
+				}
+			]
+		},
+		{
+			"aspects": ["festival", "shiny"],
+			"texture": "cobblemon:textures/pokemon/meowstic/meowstic_male_festival_shiny.png",
+			"layers": [
+				{
+					"name": "emissive",
+					"emissive": true,
+					"texture": "cobblemon:textures/pokemon/0678_meowstic/meowstic_male_emissive.png"
+				}
+			]
+		}
+	]
+}

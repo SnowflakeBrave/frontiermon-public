@@ -1,0 +1,26 @@
+{
+	"target": "cobblemon:glameow",   
+	"forms": [
+		{
+			"name": "Harvest",
+			"aspects": [
+				"harvest"
+			],
+			"evolutions": [
+				{
+					"id": "glameow_sorceriss",
+					"variant": "level_up",
+					"result": "sorceriss",
+					"consumeHeldItem": false,
+					"learnableMoves": [],
+					"requirements": [
+						{
+							"variant": "level",
+							"minLevel": 38
+						}
+					]
+				}
+			]
+		}
+	]
+}

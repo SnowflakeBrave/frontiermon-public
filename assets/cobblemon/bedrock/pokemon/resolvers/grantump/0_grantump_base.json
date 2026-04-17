@@ -1,0 +1,32 @@
+{
+	"species": "cobblemon:grantump",
+	"order": 0,
+	"variations": [
+		{
+			"aspects": [],
+			"poser": "cobblemon:grantump",
+			"model": "cobblemon:grantump.geo",
+			"texture": "cobblemon:textures/pokemon/grantump/grantump.png",
+			"layers": [
+				{
+					"name": "emissive",
+					"emissive": true,
+					"texture": "cobblemon:textures/pokemon/grantump/grantump_emissive.png",
+					"translucent": true
+				}
+			]
+		},
+		{
+			"aspects": ["shiny"],
+			"texture": "cobblemon:textures/pokemon/grantump/grantump_shiny.png",
+			"layers": [
+				{
+					"name": "emissive",
+					"emissive": true,
+					"texture": "cobblemon:textures/pokemon/grantump/grantump_shiny_emissive.png",
+					"translucent": true
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"species": "cobblemon:sorceriss",
+	"order": 0,
+	"variations": [
+		{
+			"aspects": [],
+			"poser": "cobblemon:sorceriss",
+			"model": "cobblemon:sorceriss.geo",
+			"texture": "cobblemon:textures/pokemon/sorceriss/sorceriss.png",
+			"layers": []
+		},
+		{
+			"aspects": ["shiny"],
+			"texture": "cobblemon:textures/pokemon/sorceriss/sorceriss_shiny.png"
+		}
+	]
+}

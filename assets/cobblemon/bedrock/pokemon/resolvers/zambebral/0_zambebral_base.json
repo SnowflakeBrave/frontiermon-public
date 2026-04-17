@@ -1,0 +1,32 @@
+{
+	"species": "cobblemon:zambebral",
+	"order": 0,
+	"variations": [
+		{
+			"aspects": [],
+			"poser": "cobblemon:zambebral",
+			"model": "cobblemon:zambebral.geo",
+			"texture": "cobblemon:textures/pokemon/zambebral/zambebral.png",
+			"layers": [
+				{
+					"name": "emissive",
+					"emissive": true,
+					"texture": "cobblemon:textures/pokemon/zambebral/zambebral_emissive.png",
+					"translucent": true
+				}
+			]
+		},
+		{
+			"aspects": ["shiny"],
+			"texture": "cobblemon:textures/pokemon/zambebral/zambebral_shiny.png",
+			"layers": [
+				{
+					"name": "emissive",
+					"emissive": true,
+					"texture": "cobblemon:textures/pokemon/zambebral/zambebral_shiny_emissive.png",
+					"translucent": true
+				}
+			]
+		}
+	]
+}

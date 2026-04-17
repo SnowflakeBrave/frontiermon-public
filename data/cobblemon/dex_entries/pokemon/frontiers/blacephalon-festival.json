@@ -1,0 +1,13 @@
+{
+	"id": "cobblemon:blacephalon-festival",
+	"speciesId": "cobblemon:blacephalon",
+	"displayAspects": [],
+	"conditionAspects": [],
+	"forms": [
+		{
+			"displayForm": "Festival",
+			"unlockForms": ["Festival"]
+		}
+	],
+	"variations": []
+}

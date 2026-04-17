@@ -1,0 +1,102 @@
+{
+	"rootBone": "grantump",
+	"portraitScale": 2.4,
+	"portraitTranslation": [ 0.0, -0.2, 0.0 ],
+	"profileScale": 1.0,
+	"profileTranslation": [ -0.1, 0.3, 0.0 ],
+	"animations": {
+		"faint": "q.bedrock_primary('grantump', 'faint', q.curve('one'))",
+		"cry": "q.bedrock_stateful('grantump', 'cry')"
+	},
+	"poses": {
+		"battle_idle": {
+			"poseName": "battle_idle",
+			"isBattle": true,
+			"poseTypes": [
+				"STAND",
+				"FLOAT"
+			],
+			"animations": [
+				"q.bedrock('grantump', 'battle_idle')"
+			],
+			"transformTicks": 10,
+			"quirks": [
+				"q.bedrock_quirk('grantump', 'blink')"
+			],
+			"namedAnimations": {
+				"faint": "q.bedrock_primary('grantump', 'battle_faint', q.curve('one'))",
+				"cry": "q.bedrock_stateful('grantump', 'battle_cry')"
+			}
+		},
+		"stand": {
+			"poseName": "stand",
+			"isBattle": false,
+			"poseTypes": [
+				"STAND",
+				"FLOAT",
+				"NONE",
+				"PORTRAIT",
+				"PROFILE"
+			],
+			"animations": [
+				"q.bedrock('grantump', 'ground_idle')"
+			],
+			"transformTicks": 10,
+			"quirks": [
+				"q.bedrock_quirk('grantump', 'blink')"
+			]
+		},
+		"hover": {
+			"poseName": "hover",
+			"poseTypes": [
+				"HOVER"
+			],
+			"animations": [
+				"q.bedrock('grantump', 'air_idle')"
+			],
+			"transformTicks": 5,
+			"quirks": [
+				"q.bedrock_quirk('grantump', 'blink')"
+			]
+		},
+		"fly": {
+			"poseName": "fly",
+			"poseTypes": [
+				"FLY"
+			],
+			"animations": [
+				"q.bedrock('grantump', 'air_fly')"
+			],
+			"transformTicks": 5,
+			"quirks": [
+				"q.bedrock_quirk('grantump', 'blink')"
+			]
+		},
+		"walk": {
+			"poseName": "walk",
+			"poseTypes": [
+				"WALK",
+				"SWIM"
+			],
+			"animations": [
+				"q.bedrock('grantump', 'ground_walk')"
+			],
+			"transformTicks": 5,
+			"quirks": [
+				"q.bedrock_quirk('grantump', 'blink')"
+			]
+		},
+		"sleep": {
+			"poseName": "sleep",
+			"poseTypes": [
+				"SLEEP"
+			],
+			"animations": [
+				"q.bedrock('grantump', 'sleep')"
+			],
+			"namedAnimations": {
+				"cry": "q.bedrock_stateful('dummy', 'cry')"
+			}
+		}
+	}
+}

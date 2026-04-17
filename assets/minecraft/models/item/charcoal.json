@@ -1,0 +1,20 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "minecraft:item/charcoal"
+	},
+	"overrides": [
+		{
+			"model": "frontiermon:item/vanatite",
+			"predicate": {
+				"custom_model_data": 5652
+			}
+		},
+		{
+			"model": "frontiermon:item/lilligite",
+			"predicate": {
+				"custom_model_data": 5653
+			}
+		}
+	]
+}

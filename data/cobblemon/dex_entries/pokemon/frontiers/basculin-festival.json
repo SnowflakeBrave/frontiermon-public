@@ -1,0 +1,13 @@
+{
+	"id": "cobblemon:basculin-festival",
+	"speciesId": "cobblemon:basculin",
+	"displayAspects": [],
+	"conditionAspects": [],
+	"forms": [
+		{
+			"displayForm": "Festival",
+			"unlockForms": ["Festival"]
+		}
+	],
+	"variations": []
+}

@@ -1,0 +1,32 @@
+{
+	"species": "cobblemon:vaniterror",
+	"order": 0,
+	"variations": [
+		{
+			"aspects": [],
+			"poser": "cobblemon:vaniterror",
+			"model": "cobblemon:vaniterror.geo",
+			"texture": "cobblemon:textures/pokemon/vaniterror/vaniterror.png",
+			"layers": [
+				{
+					"name": "emissive",
+					"emissive": true,
+					"texture": "cobblemon:textures/pokemon/vaniterror/vaniterror_emissive.png",
+					"translucent": true
+				}
+			]
+		},
+		{
+			"aspects": ["shiny"],
+			"texture": "cobblemon:textures/pokemon/vaniterror/vaniterror_shiny.png",
+			"layers": [
+				{
+					"name": "emissive",
+					"emissive": true,
+					"texture": "cobblemon:textures/pokemon/vaniterror/vaniterror_shiny_emissive.png",
+					"translucent": true
+				}
+			]
+		}
+	]
+}
