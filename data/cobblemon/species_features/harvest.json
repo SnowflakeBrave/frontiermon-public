@@ -1,8 +1,6 @@
 {
-	"pokemon": [
-		"comfey",
-		"glameow",
-		"golett"
-	],
-	"features": ["harvest"]
+	"keys": ["harvest"],
+	"type": "flag",
+	"isAspect": true,
+	"default": false
 }
