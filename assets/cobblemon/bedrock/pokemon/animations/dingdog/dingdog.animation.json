@@ -221,7 +221,7 @@
 				}
 			}
 		},
-		"animation.dindong.blink": {
+		"animation.dingdog.blink": {
 			"animation_length": 0.25,
 			"bones": {
 				"eye": {
