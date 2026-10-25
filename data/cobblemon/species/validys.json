@@ -16,13 +16,6 @@
 		"speed": 45
 	},
 	"behaviour": {
-		"resting": {
-			"canSleep": false,
-			"depth": "normal",
-			"light": "0-4",
-			"willSleepOnBed": false,
-			"times": "night"
-		},
 		"moving": {
 			"canLook": true,
 			"walk": {

@@ -5,13 +5,13 @@
 		{
 			"aspects": ["harvest"],
 			"poser": "cobblemon:golett",
-			"model": "cobblemon:golett_harvest_bias.geo",
-			"texture": "cobblemon:textures/pokemon/golett/golett_harvest_bias.png",
+			"model": "cobblemon:golett_harvest.geo",
+			"texture": "cobblemon:textures/pokemon/golett/golett_harvest.png",
 			"layers": []
 		},
 		{
 			"aspects": ["harvest", "shiny"],
-			"texture": "cobblemon:textures/pokemon/golett/golett_harvest_bias_shiny.png",
+			"texture": "cobblemon:textures/pokemon/golett/golett_harvest_shiny.png",
 			"layers": []
 		}
 	]
