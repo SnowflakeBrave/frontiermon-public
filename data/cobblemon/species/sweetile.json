@@ -2,24 +2,25 @@
 	"implemented": true,
 	"nationalPokedexNumber": 9999,
 	"name": "Sweetile",
-	"primaryType": "steel",
-	"secondaryType": "water",
+	"primaryType": "dragon",
+	"secondaryType": "fairy",
 	"maleRatio": 0.5,
-	"height": 20,
-	"weight": 1100,
+	"height": 7,
+	"weight": 180,
 	"pokedex": [
-		"cobblemon.species.amphizoom.desc"
+		"cobblemon.species.sweetile.desc"
 	],
 	"labels": [
 		"frontiermon"
 	],
-	"aspects": [],
 	"abilities": [
-		"overcoat",
-		"h:waterabsorb"
+		"stickyhold",
+		"frisk",
+		"h:multiscale"
 	],
 	"eggGroups": [
-		"mineral"
+		"dragon",
+		"fairy"
 	],
 	"baseStats": {
 		"hp": 80,
@@ -37,10 +38,10 @@
 		"special_defence": 0,
 		"speed": 0
 	},
-	"baseExperienceYield": 175,
-	"experienceGroup": "medium_fast",
-	"catchRate": 75,
-	"eggCycles": 20,
+	"baseExperienceYield": 60,
+	"experienceGroup": "slow",
+	"catchRate": 45,
+	"eggCycles": 40,
 	"baseFriendship": 50,
 	"baseScale": 0.8,
 	"hitbox": {
@@ -49,10 +50,6 @@
 		"fixed": false
 	},
 	"behaviour": {
-		"resting": {
-			"canSleep": true,
-			"light": "0-4"
-		},
 		"moving": {
 			"swim": {
 				"swimSpeed": 0.17,
@@ -126,6 +123,19 @@
 		"tm:takedown",
 		"tm:doubleedge"
 	],
-	"preEvolution": "kazoom",
-	"evolutions": []
+	"evolutions": [
+		{
+			"id": "sweetile_drakinel",
+			"variant": "level_up",
+			"result": "drakinel",
+			"consumeHeldItem": false,
+			"learnableMoves": [],
+			"requirements": [
+				{
+					"variant": "level",
+					"minLevel": 26
+				}
+			]
+		}
+	]
 }

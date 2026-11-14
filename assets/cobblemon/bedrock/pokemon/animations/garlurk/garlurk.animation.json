@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.goylurk.ground_idle": {
+		"animation.garlurk.ground_idle": {
 			"loop": true,
 			"animation_length": 5,
 			"bones": {
@@ -69,7 +69,7 @@
 				}
 			}
 		},
-		"animation.goylurk.ground_walk": {
+		"animation.garlurk.ground_walk": {
 			"loop": true,
 			"animation_length": 2,
 			"bones": {

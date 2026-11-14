@@ -81,7 +81,9 @@
 				":"
 			],
 			"labels": [
-				"gen8"
+				"gen8",
+				"festival",
+				"frontiermon"
 			],
 			"pokedex": [
 				"cobblemon.species.zoroark-festival.desc"

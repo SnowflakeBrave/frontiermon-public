@@ -71,7 +71,9 @@
 				"1:trickortreat"
 			],
 			"labels": [
-				"custom"
+				"gen8",
+				"festival",
+				"frontiermon"
 			],
 			"pokedex": [
 				"cobblemon.species.zorua-festival.desc"

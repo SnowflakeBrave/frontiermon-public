@@ -5,7 +5,7 @@
 		{
 			"aspects": ["harvest"],
 			"poser": "cobblemon:golett",
-			"model": "cobblemon:golett_harvest.geo",
+			"model": "cobblemon:golett.geo",
 			"texture": "cobblemon:textures/pokemon/golett/golett_harvest.png",
 			"layers": []
 		},
