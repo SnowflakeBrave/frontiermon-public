@@ -1,0 +1,32 @@
+{
+	"species": "cobblemon:kitreat",
+	"order": 0,
+	"variations": [
+		{
+			"aspects": [],
+			"poser": "cobblemon:kitreat",
+			"model": "cobblemon:kitreat.geo",
+			"texture": "cobblemon:textures/pokemon/kitreat/kitreat.png",
+			"layers": [
+				{
+					"name": "emissive",
+					"emissive": true,
+					"texture": "cobblemon:textures/pokemon/kitreat/kitreat_emissive.png",
+					"translucent": true
+				}
+			]
+		},
+		{
+			"aspects": ["shiny"],
+			"texture": "cobblemon:textures/pokemon/kitreat/kitreat_shiny.png",
+			"layers": [
+				{
+					"name": "emissive",
+					"emissive": true,
+					"texture": "cobblemon:textures/pokemon/kitreat/kitreat_emissive_shiny.png",
+					"translucent": true
+				}
+			]
+		}
+	]
+}

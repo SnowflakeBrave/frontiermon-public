@@ -4,9 +4,6 @@
 	"profileScale": 1.2,
 	"profileTranslation": [ -0.1, 0.2, 0.0],
 	"rootBone": "frostygeist",
-	"animations": {
-		"cry": "q.bedrock_stateful('frostygeist', 'cry')"
-	},
 	"poses": {
 		"standing": {
 			"poseTypes": [

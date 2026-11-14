@@ -24,8 +24,7 @@
 				"q.bedrock_quirk('grantump', 'blink')"
 			],
 			"namedAnimations": {
-				"faint": "q.bedrock_primary('grantump', 'battle_faint', q.curve('one'))",
-				"cry": "q.bedrock_stateful('grantump', 'battle_cry')"
+				"faint": "q.bedrock_primary('grantump', 'battle_faint', q.curve('one'))"
 			}
 		},
 		"stand": {

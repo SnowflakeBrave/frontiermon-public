@@ -49,10 +49,12 @@
 	},
 	"behaviour": {
 		"resting": {
-			"canSleep": true,
-			"light": "0-4"
+			"canSleep": true
 		},
 		"moving": {
+			"walk": {
+				"walkSpeed": 0.35
+			},
 			"swim": {
 				"swimSpeed": 0.17,
 				"avoidsWater": false,

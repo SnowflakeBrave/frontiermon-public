@@ -17,19 +17,14 @@
 	},
 	"behaviour": {
 		"moving": {
-			"canLook": true,
 			"walk": {
-				"canWalk": true,
-				"avoidsLand": false
-			},
-			"swim": {
-				"swimSpeed": 0.3,
-				"canSwimInWater": true,
-				"canBreatheUnderwater": false
+				"walkSpeed": 0.35
 			},
 			"fly": {
-				"canFly": true,
-				"flySpeedHorizontal": 0.3
+				"canFly": true
+			},
+			"swim": {
+				"avoidsWater": true
 			}
 		}
 	},

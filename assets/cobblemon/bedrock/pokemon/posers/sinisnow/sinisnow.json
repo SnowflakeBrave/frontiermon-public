@@ -4,9 +4,6 @@
 	"profileScale": 1.2,
 	"profileTranslation": [ 0.0, 0.0, 0.0 ],
 	"rootBone": "sinisnow",
-	"animations": {
-		"cry": "q.bedrock_stateful('sinisnow', 'cry')"
-	},
 	"poses": {
 		"standing": {
 			"poseTypes": [

@@ -1,0 +1,32 @@
+{
+	"species": "cobblemon:kitrick",
+	"order": 0,
+	"variations": [
+		{
+			"aspects": [],
+			"poser": "cobblemon:kitrick",
+			"model": "cobblemon:kitrick.geo",
+			"texture": "cobblemon:textures/pokemon/kitrick/kitrick.png",
+			"layers": [
+				{
+					"name": "emissive",
+					"emissive": true,
+					"texture": "cobblemon:textures/pokemon/kitrick/kitrick_emissive.png",
+					"translucent": true
+				}
+			]
+		},
+		{
+			"aspects": ["shiny"],
+			"texture": "cobblemon:textures/pokemon/kitrick/kitrick_shiny.png",
+			"layers": [
+				{
+					"name": "emissive",
+					"emissive": true,
+					"texture": "cobblemon:textures/pokemon/kitrick/kitrick_emissive_shiny.png",
+					"translucent": true
+				}
+			]
+		}
+	]
+}

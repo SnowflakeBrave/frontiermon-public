@@ -18,21 +18,12 @@
 	},
 	"behaviour": {
 		"moving": {
-			"canLook": true,
 			"walk": {
-				"canWalk": false,
-				"avoidsLand": false
+				"walkSpeed": 0.35
 			},
 			"swim": {
-				"swimSpeed": 0.3,
-				"canSwimInWater": true,
-				"canBreatheUnderwater": false
-			},
-			"fly": {
-				"canFly": false,
-				"flySpeedHorizontal": 0.3
-			},
-			"wanderChance": 1
+				"avoidsWater": true
+			}
 		}
 	},
 	"catchRate": 90,

@@ -19,9 +19,14 @@
 	},
 	"behaviour": {
 		"moving": {
+			"walk": {
+				"canWalk": false
+			},
 			"fly": {
-				"canFly": true,
-				"flySpeedHorizontal": 0.3
+				"canFly": true
+			},
+			"swim": {
+				"avoidsWater": true
 			}
 		}
 	},

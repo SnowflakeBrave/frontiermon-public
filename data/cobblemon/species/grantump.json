@@ -19,21 +19,15 @@
 	},
 	"behaviour": {
 		"moving": {
-			"canLook": true,
 			"walk": {
-				"canWalk": false,
-				"avoidsLand": false
-			},
-			"swim": {
-				"swimSpeed": 0.3,
-				"canSwimInWater": true,
-				"canBreatheUnderwater": false
+				"canWalk": false
 			},
 			"fly": {
-				"canFly": true,
-				"flySpeedHorizontal": 0.3
+				"canFly": true
 			},
-			"wanderChance": 1
+			"swim": {
+				"avoidsWater": true
+			}
 		}
 	},
 	"catchRate": 150,
@@ -89,7 +83,7 @@
 	"baseScale": 0.9,
 	"hitbox": {
 		"width": 0.5,
-		"height": 0.5,
+		"height": 0.9,
 		"fixed": false
 	},
 	"baseFriendship": 50,
